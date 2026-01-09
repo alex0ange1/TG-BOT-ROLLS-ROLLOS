@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = "8400186226:AAHDKa_Mj-7CDwd9d5hk6E71UaERneojTSM"
-GIGACHAT_AUTH_KEY = "Njg3NzhmOGYtOWUzMi00ZmYyLTgwOTItODE3NjA0MDcwOGFkOmRkY2FkNjk2LWI2OGItNGU1MC05YmNmLTY4YWM5NTU2OTljOQ"  # Authorization key
+GIGACHAT_AUTH_KEY = "Njg3NzhmOGYtOWUzMi00ZmYyLTgwOTItODE3NjA0MDcwOGFkOmRkY2FkNjk2LWI2OGItNGU1MC05YmNmLTY4YWM5NTU2OTljOQ=="  # Authorization key
 
 if not BOT_TOKEN:
 	raise ValueError("❌ BOT_TOKEN не найден")
